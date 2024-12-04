@@ -4,7 +4,7 @@ import { ref } from 'vue'
 export default {
   name: 'ToDoList',
   setup() {
-    const tasks = ref(['Task 1', 'Task 2'])
+    const tasks = ref([{ id:1 , title:'Task 1'},{ id:3 , title:'Task 3'}])
     return { tasks }
   }
 }
@@ -13,8 +13,8 @@ export default {
 <template>
   <div>
     <ul>
-      <li v-for="task in tasks" :key="task">
-        {{ task }}
+      <li v-for="task in tasks" :key="task.id">
+        {{ task.title}}
       </li>
     </ul>
   </div>
