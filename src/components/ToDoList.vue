@@ -1,10 +1,12 @@
 <script>
-import { ref } from 'vue'
+import { useTasksStore } from '@/stores/tasks.ts'
+import { storeToRefs } from 'pinia'
 
 export default {
   name: 'ToDoList',
   setup() {
-    const tasks = ref([{ id:1 , title:'Task 1'},{ id:3 , title:'Task 3'}])
+    const tasksStore = useTasksStore()
+    const { tasks } = storeToRefs(tasksStore)
     return { tasks }
   }
 }
