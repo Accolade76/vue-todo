@@ -2,6 +2,17 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+## Requirements
+
+1. You should be able to add a to-do
+2. You should be able to list to-dos
+3. You should be able to mark them as `done`.
+
+### MVP 1
+
+1. We will use local state for storing to-dos
+2. 
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
