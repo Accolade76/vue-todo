@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-  <div>
+  <div data-test="todos">
     <ul>
       <li v-for="task in tasks" :key="task.id">
         {{ task.title}}

@@ -20,8 +20,7 @@ describe('TodoList', () => {
       },
     });
 
-    const tasksStore = useTasksStore();
-
-    expect(tasksStore.tasks).toEqual([{"id": 123, "title": "Learning Vue"}])
+    const todos = wrapper.get('[data-test="todos"]');
+    expect(todos.text()).toBe("Learning Vue")
   });
 });
