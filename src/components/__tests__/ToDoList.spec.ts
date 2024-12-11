@@ -4,6 +4,7 @@ import {mount} from '@vue/test-utils'
 import ToDoList from '../ToDoList.vue'
 import {createTestingPinia} from '@pinia/testing'
 
+// reference https://test-utils.vuejs.org/guide/essentials/a-crash-course.html
 describe('TodoList', () => {
   it('shows a list of todos', () => {
     const wrapper = mount(ToDoList, {
