@@ -3,7 +3,6 @@ import {describe, it, expect, vi} from 'vitest'
 import {mount} from '@vue/test-utils'
 import ToDoList from '../ToDoList.vue'
 import {createTestingPinia} from '@pinia/testing'
-import {useTasksStore} from "../../stores/tasks";
 
 describe('TodoList', () => {
   it('shows a list of todos', () => {
