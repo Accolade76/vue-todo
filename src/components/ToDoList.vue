@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import { useTasksStore } from '@/stores/tasks.ts'
 import { storeToRefs } from 'pinia'
 

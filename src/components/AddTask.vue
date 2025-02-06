@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import ToDoView from './views/ToDoView.vue'
+
 </script>
 
 <template>
-  <ToDoView />
+  <div><input/><button>Add</button></div>
 </template>
 
 <style scoped>
