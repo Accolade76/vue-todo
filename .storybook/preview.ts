@@ -1,6 +1,7 @@
 import { type Preview, setup } from '@storybook/vue3'
 import { type App } from 'vue';
 import { createPinia } from 'pinia';
+import '../src/index.css';
 
 const pinia = createPinia();
 
