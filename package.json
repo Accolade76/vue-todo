@@ -14,7 +14,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test-storybook": "test-storybook"
   },
   "dependencies": {
     "pinia": "^2.1.7",
@@ -31,6 +32,7 @@
     "@storybook/addon-onboarding": "^8.5.5",
     "@storybook/blocks": "^8.5.5",
     "@storybook/test": "^8.5.5",
+    "@storybook/test-runner": "^0.22.0",
     "@storybook/vue3": "^8.5.5",
     "@storybook/vue3-vite": "^8.5.5",
     "@tsconfig/node20": "^20.1.4",
