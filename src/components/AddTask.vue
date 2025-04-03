@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-  <div><input/><button>Add</button></div>
+  <div><input data-testid="task-title"/><button data-testid="add-task" disabled>Add</button></div>
 </template>
 
 <style scoped>
