@@ -16,10 +16,10 @@ export const WithInteractions = {
     const input = canvas.getByTestId('task-title');
     const button = canvas.getByTestId('add-task');
 
-    await expect(button).toBeDisabled();
+    await expect(button).toHaveProperty("disabled", true);
 
     await userEvent.type(input, 'Task 1');
 
-    await expect(button).not.toBeDisabled();
+    await expect(button).not.toHaveProperty("disabled");
   }
 };
