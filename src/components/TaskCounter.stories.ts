@@ -1,14 +1,12 @@
 import TaskCounter from './TaskCounter.vue'
-import type { Meta, StoryObj } from '@storybook/vue3';
+import type { Meta, StoryObj } from '@storybook/vue3'
 import { expect, within } from '@storybook/test'
 
-const meta: Meta<typeof TaskCounter> = {
+export default {
   component: TaskCounter,
   title: 'Count Tasks',
   tags: ['autodocs'],
 };
-
-export default meta;
 
 type Story = StoryObj<typeof TaskCounter>;
 
