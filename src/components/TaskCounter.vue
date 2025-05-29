@@ -7,6 +7,6 @@ export default {
 
 <template>
 <div>
- <p>0</p>
+ <p data-testid="task-counter">0</p>
 </div>
 </template>
