@@ -20,6 +20,6 @@ export const WithInteractions = {
 
     await userEvent.type(input, 'Task 1');
 
-    await expect(button).not.toHaveProperty("disabled");
+    await expect(button).toHaveProperty("disabled", false);
   }
 };
